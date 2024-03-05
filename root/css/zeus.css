@@ -1,0 +1,737 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    margin-left: 0px;
+    margin-top: -15px;
+    margin-right: 0px;
+    margin-bottom: -15px;
+	}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+	padding-top: auto;
+	padding-bottom: 20px;
+    width: 90vw;
+    height: 10vh;
+    background-color: #1F262B;
+	}
+
+/* Start of Navigation Styling */
+nav {
+	width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	}
+
+#logoHolderNav {
+    width: 120px;
+	margin-top: 20px;
+    margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+    float: left;
+    }
+
+#logoHolderNav a {
+    color: #ABAAAC;
+    }
+
+#mainMenu {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#mainMenu ul {
+    list-style-type: none;
+    }
+
+#mainMenu li {
+    float: right;
+	position: relative;
+	margin-right: 20px;
+	width: 100px;
+    }
+
+#mainMenu li a {
+    display: block;
+    width: 120px;
+    margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+    text-decoration: none;
+    color: #ABAAAC;
+    }
+
+#mainMenu li a:hover {
+	text-decoration: underline;
+	color: #5B676D;
+	}
+
+/* Start of Navigation Dropdown */
+#mainMenu li ul {
+	list-style-type: none;
+	position: absolute;
+	display: none;
+	padding: 0px;
+	}
+
+#mainMenu li:hover ul  {
+    color: #1F262B;
+    display: block;
+    }
+/* End of Navigation Dropdown */
+
+.mainMenuLink {
+	margin-top: -10px;
+	margin-bottom: -5px;
+	font-family: "Modesto Text Bold", "Modesto Text Medium", "Modesto Text Light", "serif";
+	}
+
+.mainMenuLink:hover {
+	text-decoration: underline;
+	color: #5B676D;
+	}
+
+#contactUsLink {
+    float: right;
+    margin: 20px;
+	padding-top: 15px;
+    }
+
+#contactUsLink a {
+    text-decoration: none;
+    color: #ABAAAC;
+    border: solid 2px #ABAAAC;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+#contactUsLink a:hover {
+    background-color: #ABAAAC;
+    color: #1F262B;
+    }
+/* End of Navigation Styling */    
+
+/* Start of Section Styling */
+#contentArea {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+section {
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+
+.clear {
+	clear: both;
+	}
+
+#servicesContact {
+	
+	}
+/* End of Section Styling */
+
+/* Start of Hero Section Styling */
+.hero {
+    width: 100VW;
+    height: 67.5VH;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+#home {
+	background-image: url("../images/index/hero/zeusHero2.jpg");
+	background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	}
+
+#about {
+	background-image: url("../images/about/hero/HITH-lone-survivor-hith.jpg");
+	background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	}
+
+#products {
+	background-image: url("../images/products/hero/productsHero.jpg");
+	background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	}
+
+#services {
+	
+	background-image: url();
+	background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+	}
+
+#slider {
+	height: 100%;
+	}
+
+#servicesHero {
+    position: absolute;
+	bottom: 0;
+	}
+
+#contact {
+    background-image: url("../images/contactUs/hero/missionControl.jpg");
+    background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+	}
+
+.heroTextRight {
+    float: right;
+    text-align: right;
+    width: 30%;
+    margin-right: 120px;
+	}
+
+.heroTextLeft {
+	float: left;
+	text-align: left;
+	width: 30%;
+	margin-left: 120px;
+	}
+
+.textBackgroundLeft {
+	background-color: #1F262B;
+	padding-left: 80px;
+	padding-right: 20px;
+	padding-top: 40px;
+	height: 500px;
+	border-radius: 5px;
+	}
+
+.textBackgroundRight {
+	background-color: #1F262B;
+	padding-left: 20px;
+	padding-right: 80px;
+	padding-top: 40px;
+	height: 500px;
+	border-radius: 5px;
+	}
+/* End of Hero Section Styling */
+
+/* Start of Content Styling */
+.caption {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 4%;
+	}
+
+.captionMargin {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25%;
+	}
+
+.icon {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40px;
+	height: 20px;
+	}
+
+.textLeft {
+	float: left;
+	max-width: 33%;
+	margin-right: 40px;
+	text-align: right;
+	}
+
+.imageRight {
+	float: right;
+	width: 60%;
+	height: 60VH;
+	background-color: #1B1B1B;
+	border-radius: 5px;
+	}
+
+.textRight {
+	float: right;
+	max-width: 33%;
+	margin-left: 40px;
+	text-align: left;
+	}
+
+.imageLeft {
+	float: left;
+	width: 60%;
+	height: 60VH;
+	background-color: #1B1B1B;
+	border-radius: 5px;
+	}
+
+iframe {
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	}
+
+img {
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	}
+
+/* Start of Product Cards */
+.productCards {
+	width: 100%;
+	height: 60VH;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+
+.productCard {
+    float: left;
+    padding: 10px;
+    border: solid 2px #1F2A2B;
+    border-radius: 5px;
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+	margin-bottom: 60px;
+    position: relative;
+	background-color: #5B676D;
+	}
+
+#pKnives {
+	background-image: url("../images/products/knives/bubbaBladeSurvival.png");
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #5B676D;
+	width: 250px;
+	height: 500px;
+	}
+
+#pKnives:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	}
+
+#knivesHeading {
+	margin-left: 20px;
+	}
+
+#pHandguns {
+	background-image: url("../images/products/handGuns/m_p9_2.0Compact.png");
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #5B676D;
+	width: 250px;
+	height: 500px;
+	}
+
+#pHandguns:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	}
+
+#handgunsHeading {
+	margin-left: 20px;
+	}
+
+#pRifles {
+	background-image: url("../images/products/rifles/barrettM82A1.png");
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #5B676D;
+	width: 250px;
+	height: 500px;
+	}
+
+#pRifles:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	}
+
+#riflesHeading {
+	margin-left: 20px;
+	}
+
+#pEquipment {
+	background-image: url("../images/products/equipment/vestValkenPlateCarrierII.png");
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #5B676D;
+	width: 250px;
+	height: 500px;
+	}
+
+#pEquipment:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	}
+
+#equipmentHeading {
+	margin-left: 20px;
+	}
+
+.productImage {
+	width: 100%;
+	height: 100%;
+	}
+
+.productText {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 30%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: -40px;
+	}
+
+.productText p {
+	color: #FFFFFF;
+	}
+/* End of Product Cards */
+
+/*End of Content Styling*/
+
+/* Start of Heading Styling */
+h1 {
+    clear: both;
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    font-size: 64px;
+    color: #848689;
+    }
+    
+h2 {
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    font-size: 48px;
+    color: #5B676D;
+    }
+    
+h3 {
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    font-size: 18px;
+    color: #ABAAAC;
+    }
+    
+h4 {
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    font-size: 24px;
+    color: #2A3439;
+    }
+    
+h5 {
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    font-size: 20px;
+    color: #848689;
+    }
+    
+h6 {
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    font-size: 16px;
+    color: #5B676D;
+    }
+/* End of Heading Styling */
+
+/* Start of Paragraph Styling */
+p {
+  	font-family: "Modesto Text Bold", "Modesto Text Medium", "Modesto Text Light" , "serif";
+  	font-size: 16px;
+  	color: #1F262A;
+  }
+
+.pLight {
+	color: #ABAAAC;
+	}
+
+.subHeading {
+	font-size: 28px;
+	color: #5B676D;
+	}
+/* End of Paragraph Styling */
+
+/* Start of Button Styling */
+.ctaJumbo {
+    background-color: #2A3439;
+    width: 120px;
+    height: 15px;
+    border: solid 2px #848689;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+	margin-top: 40px;
+	margin-right: 40px;
+	font-size: 22px;
+    }
+
+.ctaJumbo a {
+    width: 100%;
+    height: 100%;
+    color: #ABAAAC;
+    text-decoration: none;
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+	margin: auto;
+    }
+
+.ctaJumbo:hover {
+    background-color: #848689;
+    }
+
+.ctaJumbo a:hover {
+    color: #2A3439;
+    }
+
+.cta {
+    background-color: #2A3439;
+    width: 90px;
+    height: 20px;
+    border: solid 2px #848689;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    border-radius: 5px;
+    clear: both;
+    float: left;
+    margin-top: 40px;
+    }
+
+.cta a {
+    text-decoration: none;
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    font-size: 16px;
+	color: #ABAAAC;
+    }
+
+.cta:hover {
+    background-color: #848689;
+    }
+
+.cta a:hover {
+    color: #2A3439;
+    }
+
+.buttonRight {
+	float: right;
+	margin-right: 0px;
+	margin-left: 60px;
+	color: #ABAAAC;
+	}
+
+.buttonRight:hover {
+	color: #2A3439;
+	}
+
+.buttonLeft {
+	float: left;
+	margin-left: 0px;
+	margin-right: 60px;
+	color: #ABAAAC;
+	}
+
+.buttonLeft:hover {
+	color: #2A3439;
+	}
+/* End of Button Styling */
+
+br {
+    clear: both;
+    }
+
+hr {
+    clear: both;
+	width: 80%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+    }
+
+/* Start of Form Styling */
+form {
+    clear: both;
+    width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+    }
+
+#servicesForm {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+
+#contactForm {
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+	}
+
+label {
+	font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", "sans-serif";
+    font-size: 20px;
+    font-weight: 400;
+	color: #1F2A2B;
+    }
+
+input {
+	font-family: "Modesto Text Bold", "Modesto Text Medium", "Modesto Text Light", "serif";
+	font-size: 16px;
+	font-weight: 200;
+	color: #5B676D;
+    width: 80%;
+    height: 26px;
+    border-radius: 5px;
+    border-color: #1F262B;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    }
+
+.radio {
+    font-size: 16px;
+    font-weight: 400;
+    }
+
+textarea {
+    width: 90%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #1F262B;
+    min-height: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    }
+
+.submitButton {
+    width: 140px;
+    height: 40px;
+    border: solid 2px #848689;
+    border-radius: 5px;
+    background-color: #2A3439;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #ABAAAC;
+    }
+/* End of Form Styling */
+
+/* Start of Footer Styling */
+footer {
+    background-color: #1F262B;
+    clear: both;
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    }
+
+footer a {
+    color: #ABAAAC;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Modesto Text Bold", "Modesto Text Medium", "Modesto Text Light", serif;
+    }
+
+footer a:hover {
+    color: #848689;
+    text-decoration: underline;
+    }
+
+#logoHolderFooter {
+    width: 80%;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 40px;
+    float: left;
+    }
+
+#logoHolderFooter a {
+    color: #ABAAAC;
+    }
+
+.pageLink {
+	padding-bottom: 10px;
+	}
+
+.pageLink a {
+	color: #ABAAAC;
+    font-size: 20px;
+    font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", sans-serif;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+
+.pageLink a:hover {
+    text-decoration: underline;
+	color: #5B676D;
+    }
+
+#footer {
+	width: 80%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#footer td a {
+    padding: 20px;
+	}
+
+#socialMedia {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+	}
+
+.socialMediaIcons {
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	}
+
+#copyright {
+    color: #ABAAAC;
+    padding-bottom: 80px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Titillium Web Black", "Titillium Web Bold", "Titillium Web SemiBold", "Titillium Web Regular", "Titillium Web Light", "Titillium Web ExtraLight", "sans-serif";
+	}
+/* End of Footer Styling */
